@@ -1,7 +1,11 @@
 var Client = require('./index').Client
 
-var client = new Client()
-client.on('msearch', () => {
-  console.log('search')
+var client = new Client({
+  reuseAddr: true
 })
-client.search('ssdp:all')
+
+client.on('response', (response) => {
+  console.warn(response)
+})
+
+client.browse('urn:dial-multiscreen-org:service:dial:1')

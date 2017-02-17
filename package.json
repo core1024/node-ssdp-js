@@ -1,0 +1,32 @@
+{
+  "name": "node-ssdp-js",
+  "version": "0.0.8",
+  "description": "A node.js SSDP client and server library",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonlehmann/node-ssdp-js.git"
+  },
+  "keywords": [
+    "SSDP",
+    "client",
+    "server"
+  ],
+  "author": "Brandon Lehmann <brandonlehmann@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brandonlehmann/node-ssdp-js/issues"
+  },
+  "homepage": "https://github.com/brandonlehmann/node-ssdp-js#readme",
+  "dependencies": {
+    "events": "^1.1.1",
+    "extend": "^3.0.0",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {
+    "standard": "^8.6.0"
+  }
+}

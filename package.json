@@ -22,9 +22,7 @@
   },
   "homepage": "https://github.com/brandonlehmann/node-ssdp-js#readme",
   "dependencies": {
-    "events": "^1.1.1",
     "extend": "^3.0.0",
-    "util": "^0.10.3",
     "uuid": "^3.0.1"
   },
   "devDependencies": {

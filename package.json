@@ -1,6 +1,6 @@
 {
   "name": "node-ssdp-js",
-  "version": "0.9.5",
+  "version": "0.9.6",
   "description": "A node.js SSDP client and server library",
   "main": "index.js",
   "scripts": {
